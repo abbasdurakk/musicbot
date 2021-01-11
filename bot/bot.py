@@ -7,16 +7,16 @@ from aiotg import Bot
 from database import db, text_search
 
 greeting = """
-    ✋ Welcome to Telegram Music Catalog! 🎧
-We are a community of music fans who are eager to share what we love.
-Just send your favourite tracks as audio files and they'll be available for everyone, on any device.
-To search through the catalog, just type artist name or track title. Nothing found? Feel free to fix it!
+    ✋ Telegram Müzik Kataloğuna Hoş Geldiniz! 🎧
+Sevdiklerimizi paylaşmaya hevesli müzik hayranlarından oluşan bir topluluğuz.
+En sevdiğiniz parçaları ses dosyası olarak göndermeniz yeterlidir ve bunlar herkes tarafından herhangi bir cihazda kullanılabilir olacaktır.
+Katalogda arama yapmak için sanatçı adını veya parça adını yazmanız yeterlidir. Hiçbirşey Bulunamadı? Düzeltmekten çekinmeyin!
 """
 
 help = """
-To search through the catalog, just type artist name or track title.
-Inside a group chat you can use /music command, for example:
-/music Summer of Haze
+Katalogda arama yapmak için sanatçı adını veya parça adını yazmanız yeterlidir.
+Grup sohbetinde / music komutunu kullanabilirsiniz, örneğin:
+/ music Summer of Haze
 
 By default, the search is fuzzy but you can use double quotes to filter results:
 "summer of haze"
